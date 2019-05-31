@@ -12,10 +12,11 @@
                         <p>{{ post.content }}</p>            
                     </div>
                     <div class="card-footer">
-                        <p class="card-author">By {{ post.author }} on {{ post.date_posted }}</p>
+                        <p class="card-author">By {{ post.author }} on {{ post.date_posted|date:"F d, Y" }}</p>
                     </div>
                 </div>
             </div>      
+            
             
         {% endfor %}
 
