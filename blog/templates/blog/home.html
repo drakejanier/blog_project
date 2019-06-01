@@ -12,7 +12,8 @@
                         <p>{{ post.content }}</p>            
                     </div>
                     <div class="card-footer">
-                        <p class="card-author">By {{ post.author }} on {{ post.date_posted|date:"F d, Y" }}</p>
+                        <a href="#" class="mr-2 card-author">{{ post.author }}</a>
+                        <p class="card-date"> on {{ post.date_posted|date:"F d, Y" }}</p>
                     </div>
                 </div>
             </div>      
