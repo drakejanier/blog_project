@@ -1,4 +1,6 @@
-.vscode
+/.vscode/
+.vscode/
 /env/
 env/
+projectnotes*
 projectnotes.txt
