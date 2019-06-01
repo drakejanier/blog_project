@@ -2,5 +2,5 @@
 .vscode/
 /env/
 env/
-projectnotes*
 projectnotes.txt
+projectnotes-last.txt
