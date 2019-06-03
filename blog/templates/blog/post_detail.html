@@ -1,0 +1,29 @@
+{% extends "blog/base.html"%}
+
+{% block content %}
+    <div class="card-deck">
+        
+        <div class="col-sm-5">
+            
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">{{ object.title }}</h5>
+                </div>
+                <div class="card-body">            
+                    <p>{{ object.content }}</p>            
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="mr-2 card-author">{{ object.author }}</a>
+                    <p class="card-date"> on {{ object.date_posted|date:"F d, Y" }}</p>
+                </div>
+            </div>
+        </div>      
+            
+            
+        
+
+    </div>
+    
+
+{% endblock content %}
+
